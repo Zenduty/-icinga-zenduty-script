@@ -9,7 +9,7 @@ cd /tmp
 git clone https://github.com/Zenduty/icinga-zenduty-script.git
 cd icinga-zenduty-script
 ```
-3. Open zenduty-icinga2.conf file and enter the integration key provided into the “pager” field.
+3. Open zenduty-icinga2.conf file and enter the integration key provided into the “key” field.
 4. Move the files into their respective folders inside /etc/icinga2/. The zenduty-icinga2.conffile must go to the conf.d folder (or the objects.d folder, whichever exists),
 ```
 mv zenduty-icinga2.conf /etc/icinga2/conf.d/

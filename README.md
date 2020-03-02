@@ -26,7 +26,7 @@ object UserGroup "icingaadmins" {
 display_name = "Icinga 2 Admin Group"
 }
 ```
-6. Add the custom attribute use_pagerduty to your configuration’s host and service configuration objects: 
+6. Add the custom attribute enable_zenduty to your configuration’s host and service configuration objects: 
 ```
 vars.enable_zenduty = true
 ```

@@ -36,7 +36,8 @@ def get_fields(field_array):
     
 
 
-def main():try:
+def main():
+    try:
         description = "collect arguments for zenduty"
         parser = build_arguments_parser(description)
         args = parser.parse_args()
